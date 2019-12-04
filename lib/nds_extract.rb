@@ -39,7 +39,8 @@ while directors_index < nds.length do
   end 
   directors_index+=1 
 end 
-p gross_for_director
 binding.pry 
+p gross_for_director
+ 
 
 
