@@ -29,6 +29,6 @@ def directors_totals(nds)
 def gross_for_director(director_data)
   gross_for_director= [ ]
 binding.pry 
-end
+
 
 
