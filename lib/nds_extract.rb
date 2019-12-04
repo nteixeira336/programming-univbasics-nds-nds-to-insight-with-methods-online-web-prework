@@ -7,7 +7,7 @@ require 'directors_database'
 # { directorOne => allTheMoneyTheyMade, ... }
 
 def directors_totals(nds)
-  binding.pry 
+  #binding.pry 
   directors_totals = { }
   directors_index=0 
   while directors_index < nds.length do 
