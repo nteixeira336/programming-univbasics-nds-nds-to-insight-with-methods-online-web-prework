@@ -7,7 +7,7 @@ require 'directors_database'
 # { directorOne => allTheMoneyTheyMade, ... }
 
 def directors_totals(nds)
-  
+  binding.pry 
   directors_totals = { }
   directors_index=0 
   while directors_index < nds.length do 
@@ -16,7 +16,7 @@ def directors_totals(nds)
   directors_totals[director]=0 
   worldwide_gross_index=0 
     while worldwide_gross_index < nds[directors_index][:movies].length do 
-    binding.pry  
+      
     directors_totals[director]+=nds[directors_index][:movies][worldwide_gross_index][:worldwide_gross]
     worldwide_gross_index+=1 
     end 
