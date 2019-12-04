@@ -18,9 +18,9 @@ def directors_totals(nds)
       
     directors_totals[director]+=nds[directors_index][:movies][worldwide_gross_index][:worldwide_gross]
     worldwide_gross_index+=1 
-    binding.pry
     end 
   directors_index+=1 
+  binding.pry 
   end 
    
   directors_totals 
