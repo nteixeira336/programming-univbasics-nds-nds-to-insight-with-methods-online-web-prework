@@ -28,4 +28,4 @@ def directors_totals(nds)
 # using director_data as input
 def gross_for_director(director_data)
   binding.pry 
-end
+
