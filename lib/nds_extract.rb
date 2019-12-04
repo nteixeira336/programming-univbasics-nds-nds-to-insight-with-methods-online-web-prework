@@ -20,8 +20,9 @@ def directors_totals(nds)
     worldwide_gross_index+=1 
     end 
   directors_index+=1 
-  binding.pry 
+  
   end 
+  binding.pry 
    directors_totals 
 
 
