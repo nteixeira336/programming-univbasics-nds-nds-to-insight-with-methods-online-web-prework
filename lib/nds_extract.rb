@@ -29,14 +29,17 @@ def directors_totals(nds)
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
- 
- director_data= 
  gross_for_director=0 
  directors_index=0 
-binding.pry 
- while directors_index < 
+while directors_index < nds.length do 
+  worldwide_gross_index=0 
+  while worldwide_gross_index < nds[directors_index].length do 
+    gross_for_director += directors_totals(director_data)
+    worldwide_gross_index+=1 
+  end 
+  directors_index+=1 
 end 
-
+p gross_for_director
 
 
 
