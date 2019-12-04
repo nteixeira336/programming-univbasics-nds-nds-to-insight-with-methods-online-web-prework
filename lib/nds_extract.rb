@@ -20,11 +20,10 @@ def directors_totals(nds)
     worldwide_gross_index+=1 
     end 
   directors_index+=1 
-  binding.pry 
   end 
-   
+  binding.pry  
   directors_totals 
-end
+
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
